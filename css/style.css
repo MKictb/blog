@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+body{
+    background-color:#000a90;
+    margin: 20px 0;
+    font-family: sans-serif
+}
+
+.wrapper{
+    width: 800px;
+    margin: auto;
+    background-color:white;
+    border-radius: 10px;
+}
+
+header{
+    padding: 50px;
+    overflow: hidden;
+}
+
+header > #logo{
+    font-size: 2em;
+    color: #946b2d;
+    float: left;
+}
+
+nav{
+    float: right;
+    background-color: #000a90;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+nav a{
+    color: silver;
+    padding: 0px 5px;
+}
+.home a.home,
+.about a.about{
+    background-color: #946b2d;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    width: 60%;
+    float: left;
+}
+
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid silver;
+
+}
+
+article h2 a{
+    color: #946b2d;
+}
+article:last-child{
+    border-bottom: 0px;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    background-color: #000a90;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside h3{
+    background-color: #946b2d;
+    color: silver;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside a{
+    color: silver;
+
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid silver;
+    text-align: center;
+
+}
+
+
